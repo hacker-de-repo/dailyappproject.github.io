@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 10px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+.subir{
+    position: relative;
+    text-align: center;
+}
+.title{
+    margin-top: 6rem;
+    text-align: center;
+    color: black;
+    font-size: 8rem;
+}
+.subhead{
+    margin-top: -0.5rem;
+    font-size: 3rem;
+    font-weight: 1rem;
+}
