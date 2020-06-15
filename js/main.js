@@ -4,3 +4,6 @@ $(document).ready(function() {
         return false;
     });
 });
+document.querySelector('html').onclick = function() {
+    alert('Ai! Pare de me cutucar!');
+}

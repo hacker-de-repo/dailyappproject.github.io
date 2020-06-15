@@ -9,9 +9,25 @@ html{
     font-size: 10px;
     font-family: 'SF Pro Display', sans-serif;
 }
-.subir{
-    position: relative;
-    text-align: center;
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: #b6ffde;
+    backdrop-filter: blur(2rem);
+    width: 100%;
 }
 .title{
     margin-top: 6rem;
@@ -23,4 +39,30 @@ html{
     margin-top: -0.5rem;
     font-size: 3rem;
     font-weight: 1rem;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #000000;
+    padding: 0 1rem;
+    transition: opacity .5s;;
+}
+.nav-link:hover{
+    opacity: .7;
+}
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #ffffff;
+    border-bottom: .6rem solid #ffffff;
 }
