@@ -14,13 +14,15 @@
     <meta name="theme-color" content="#ffffff">
     <title>Daily app!</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 <header>
     <div class="container">
         <ul class="nav-list">
             <li class="nav-item">
-                <a href="#head" class="nav-link">inicio</a>
+                <a href="/" class="nav-link">inicio</a>
             </li>
             <li name="nav-item">
                 <a href="#quem-somos" class="nav-link">quem somos</a>
@@ -36,7 +38,7 @@
     <h1 class="title head" id="head">Daily! app</h1>
     <h3 class="title subhead">App de gerenciamento escolar</h3>
 </div>
-<section class="hero quem-somos">
+<section class="hero quem-somos" id="quem-somos">
     <h1 class="title">Quem somos.</h1>
     <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis,
         tellus id suscipit iaculis, velit neque bibendum nisi,
@@ -50,7 +52,7 @@
         in ullamcorper diam.
     </p>
 </section>
-<section class="hero ajudar">
+<section class="hero ajudar" id="ajuda">
     <h1 class="title">Como nos ajudar</h1>
     <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis,
         tellus id suscipit iaculis, velit neque bibendum nisi,
@@ -64,9 +66,10 @@
         in ullamcorper diam.
     </p>
 </section>
+
+<script>
+  AOS.init();
+</script>
 <script src="./js/main.js"></script>
-<div class="voltarTopo">
-    <a href="#head" class="subir">Topo</a>
-</div>
 </body>
 </html>
