@@ -15,7 +15,7 @@ a{
 }
 .container{
     max-width: 98rem;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 2.2rem;
     backdrop-filter: blur(1rem);
 
@@ -24,10 +24,10 @@ a{
 header{
     position: fixed;
     top: 0;
-    z-index: 1400;
+    z-index: 1500;
     height: 4.4rem;
-    background-color: rgba(26, 148, 142, 0.966);
-
+    background-color: #eae6ffc0;
+    backdrop-filter: blur(1rem);
     width: 100%;
 }
 .title{
@@ -44,12 +44,18 @@ header{
 .nav-list{
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: right;
+    justify-content: right;
     margin: 0 -1rem;
-
+    margin-top: .2rem;
 }
-
+.nav-icon{
+    margin-top: -.9rem;
+    margin-left: -1rem;
+    border-radius: 50%;
+    height: 95%;
+    width: 95%;
+}
 .nav-link{
     font-size: 1.4rem;
     color: #000000;
