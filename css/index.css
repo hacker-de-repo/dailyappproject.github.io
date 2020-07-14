@@ -17,6 +17,7 @@ a{
     max-width: 98rem;
     margin: 0 auto;
     padding: 0 2.2rem;
+    backdrop-filter: blur(1rem);
 
 }
 
@@ -25,8 +26,8 @@ header{
     top: 0;
     z-index: 1400;
     height: 4.4rem;
-    background-color: #b6ffde;
-    backdrop-filter: blur(2rem);
+    background-color: rgba(70, 20, 20, 0.966);
+
     width: 100%;
 }
 .title{
@@ -51,12 +52,15 @@ header{
 
 .nav-link{
     font-size: 1.4rem;
-    color: #000000;
+    color: #ffffff;
     padding: 0 1rem;
     transition: opacity .5s;;
 }
 .nav-link:hover{
     opacity: .7;
+}
+.nav-item{
+    margin-top: 1rem;
 }
 .hero{
     height: 69.2rem;
